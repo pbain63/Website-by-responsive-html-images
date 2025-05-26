@@ -15,7 +15,7 @@ https://pbain63.github.io/Website-by-responsive-html-images/
 ## 📱 Features
 
 - ✅ Fully responsive layout (mobile, tablet, desktop)
-- ✅ Simple structure using only HTML and CSS
+- ✅ Simple structure using only HTML5 and CSS3
 - ✅ Clean, image-driven design
 - ✅ Lightweight and easy to customize
 - ✅ Live deployment via GitHub Pages
