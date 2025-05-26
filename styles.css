@@ -27,14 +27,7 @@ img {
   display: block;
   width: 100%;
 }
-
 h1,
 footer {
   text-align: center;
-}
-footer {
-  padding: 1em;
-}
-span {
-  color: red;
 }
