@@ -6,20 +6,11 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
-header img {
-  /* max-width: 100%; */
-  /* height: 200px; */
-  /* height: 20rem; */
-  /* background-image: url(./assets/Image_Illusion.jpeg); */
-  /* background-size:cover; */
-  /* background-position:center; */
-}
+
 section {
   padding: 5em;
 }
-h1 {
-  /* color: red; */
-}
+
 p {
   line-height: 1.5;
 }
@@ -36,4 +27,10 @@ footer {
 }
 span {
   color: red;
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 2em;
+  }
 }
