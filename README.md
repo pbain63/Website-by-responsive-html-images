@@ -1,6 +1,6 @@
 # 🌐 Responsive HTML Image-Based Website
 
-This project is a **fully responsive website** built using **HTML and CSS**, showcasing how high-quality images can be used to create clean, modern layouts that adapt smoothly across devices.
+This project is a **fully responsive website** built using **HTML5 and CSS3**, showcasing how high-quality images can be used to create clean, modern layouts that adapt smoothly across devices.
 
 ## Live Demo:
 
