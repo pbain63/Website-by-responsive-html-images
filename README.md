@@ -11,7 +11,6 @@ https://pbain63.github.io/Website-by-responsive-html-images/
 - HTML5
 - CSS3
 - Responsive Design Principles
--
 
 ## 📱 Features
 
@@ -21,31 +20,22 @@ https://pbain63.github.io/Website-by-responsive-html-images/
 - ✅ Lightweight and easy to customize
 - ✅ Live deployment via GitHub Pages
 
-## 📂 Project Structure
-
-/
-├── index.html
-├── /images
-│ ├── image1.jpg
-│ └── ....
-├── style.css
-│
-└── README.md
-
 🧩 Future Improvements
 
-Add a header, navbar, and footer
+- Add a header, navbar, and footer
 
-Add real content and page sections
+- Add real content and page sections
 
-Improve accessibility (alt text, semantic elements)
+- Improve accessibility (alt text, semantic elements)
 
-Add hover effects and animations
+- Add hover effects and animations
 
-Optimize images using WebP and lazy loading
+- Optimize images using WebP and lazy loading
 
 📃 License
+
 This project is open-source and available under the MIT License.
 
 🙌 Acknowledgments
+
 This project was built as part of practicing responsive layout design using just HTML and CSS.
