@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive image testing</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/header_img.jpg" alt="old kitchen" />
+    </header>
+
+    <main>
+      <section>
+        <h1>Welcome to the website.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ad
+          explicabo quas modi, minus at officia, non, obcaecati nemo quo totam
+          vero aperiam excepturi quaerat qui dignissimos assumenda cupiditate
+          reiciendis! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Ex natus velit excepturi quaerat voluptatum hic sit asperiores
+          ducimus? Mollitia inventore quasi facilis obcaecati corporis culpa
+          beatae autem quae, nostrum quis? Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit.
+        </p>
+        <picture>
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/Image_Illusion_23_portrait.jpg"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1024px)"
+            srcset="./assets/Image_Illusion_32_landscape.jpg"
+          />
+          <source
+            media="(min-width: 1025px)"
+            srcset="./assets/Image_Illusion_landscape.jpg"
+          />
+          <img
+            src="./assets/Image_Illusion_landscape.jpg"
+            alt="man trying to balance "
+          />
+        </picture>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus ea aliquid veniam ducimus dolore cum ipsum ipsam sit,
+          vero possimus, commodi ipsa voluptate veritatis. Distinctio quidem nam
+          quam repudiandae sit? Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Laborum dolorem eum exercitationem, at iure nihil
+          delectus modi culpa quia, consequatur iste tenetur obcaecati.
+          Consequuntur voluptatibus fuga totam expedita enim numquam!
+        </p>
+
+        <img
+          src="./assets/upper_corner_800w.jpg"
+          alt="upper corner of room"
+          sizes="(max-width: 600px) 480px, 800px"
+          srcset="
+            ./assets/upper_corner_480w.jpg 480w,
+            ./assets/upper_corner_800w.jpg 800w
+          "
+        />
+
+
+        <!-- <img
+          srcset="
+            ./assets/mit_portrait.jpg 480w,
+            ./assets/upper_corner_800w.jpg 800w
+          "
+          sizes="(max-width: 600px) 480px, 800px"
+          src="./assets/upper_corner_800w.jpg"
+          alt="upper corner of room"
+        /> -->
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quod
+          laudantium repudiandae nisi deserunt et quibusdam at ducimus maxime
+          tempora corrupti in est cumque officiis iste, consequuntur quidem
+          magni aliquam!
+        </p>
+      </section>
+    </main>
+
+    <footer>Made with <span>❤️</span> by © Prodip Bain</footer>
+  </body>
+</html>
